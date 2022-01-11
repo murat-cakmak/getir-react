@@ -1,8 +1,13 @@
 module.exports = {
     mode: 'jit',
-    purge: ['./public/*.html', './src/**/*.{js,jsx,ts,tsx}'],
+    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    darkMode: false,
     theme: {
-      extend: {},
+      extend: {
+        backgroundColor: theme => ({
+          'brand-color': '#5d3ebc'
+        })
+      },
     },
     plugins: [],
   }
