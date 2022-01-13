@@ -3,11 +3,14 @@ module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false,
     theme: {
-      extend: {
-        backgroundColor: theme => ({
-          'brand-color': '#5d3ebc'
-        })
-      },
+        extend: {
+            colors: theme => ({
+                'brand-color': '#4c3398',
+                'primary-brand-color': '#5d3ebc',
+                'secondary-brand-color': '#7849f7',
+                'brand-yellow': '#ffd300'
+            }),
+        },
     },
     plugins: [],
-  }
+}
