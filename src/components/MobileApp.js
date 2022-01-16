@@ -16,7 +16,7 @@ export default function MobileApp() {
                     </a>
                 </nav>
             </div>
-            <picture>
+            <picture className="flex items-end">
                 <img src="https://getir.com/_next/static/images/phoneLanding-88c033545710c4808054072689e187d7.png" alt=""/>
             </picture>
         </div>

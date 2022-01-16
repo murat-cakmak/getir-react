@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <div className="bg-white mt-10">
             <div className="container mx-auto">
-                <div className="grid grid-cols-4 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <section className="py-10">
                         <h3 className="text-primary-brand-color font-semibold mb-5">Getir'i indirin!</h3>
                         <nav className="flex flex-col gap-y-2">
