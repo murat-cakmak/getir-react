@@ -39,7 +39,21 @@ export default function Campaigns() {
         autoplaySpeed: 3000,
         cssEase: "linear",
         nextArrow: <NextBtn />,
-        prevArrow: <PrevBtn />
+        prevArrow: <PrevBtn />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ],
     };
 
     return (

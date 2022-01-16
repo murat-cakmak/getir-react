@@ -19,7 +19,7 @@ export default function HeroSection() {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     };
 
     return (
@@ -37,7 +37,7 @@ export default function HeroSection() {
                     <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"/>
                     <h3 className="mt-8 text-white text-4xl font-semibold">Dakikalar içinde <br/> kapınızda</h3>
                 </div>
-                <div className="w-[400px] rounded-lg bg-gray-50 p-6 gap-y-3">
+                <div className="hidden sm:block w-[400px] rounded-lg bg-gray-50 p-6 gap-y-3">
                     <h4 className="text-primary-brand-color text-center font-semibold mb-4 font-semibold">Giriş yap veya kayıt ol</h4>
                    <div className="grid gap-y-3">
                        <div className="flex gap-x-2">
